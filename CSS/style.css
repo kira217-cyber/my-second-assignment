@@ -276,4 +276,9 @@ ul > li > a{
     .arrow{
         display: none;
     }
+    .standard-title{
+        font-size: 1.62rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
 }
