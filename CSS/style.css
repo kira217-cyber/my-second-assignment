@@ -51,7 +51,7 @@ ul > li > a{
 .about{
     font-size: 1.25rem;
     font-weight: 600;
-    color: skyblue;
+    color: #01ACFD;
 }
 .facilities{
     font-size: 1.25rem;
@@ -76,4 +76,204 @@ ul > li > a{
 }
 .btn-1:hover{
     cursor: pointer;
+}
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    color: black;
+    font-size: 2rem;
+}
+#HR{
+    display: none;
+}
+/* kid-section related style */
+.kids-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.kids-title{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.Orange{
+    color: orange;
+}
+.Sky-blue{
+    color: #01ACFD;
+}
+.kids-description{
+    margin-top: 24px;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.btn-2{
+    width: 197px;
+    height: 50px;
+    margin-top: 24px;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 12px;
+    border: none;
+}
+.btn-2:hover{
+    cursor: pointer;
+    color: orange;
+}
+
+/* Standard card section */
+.standard-section{
+    background-image: url(..//assets/bg.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-top: 60px;
+}
+.standard-title{
+    margin-bottom: 80px;
+    font-size: 2.875rem;
+    font-weight: bold;
+}
+.standard-card-section{
+    display: flex;
+}
+
+.card-1{
+    background: linear-gradient(180deg,#DEF5FF,#FFFFFF);
+    border: 2px solid #DEF5FF;
+    width: 367px;
+    height: 477px;
+    padding: 54px 40px;
+    text-align: center;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.standard-card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #202020;
+}
+.standard-card-description{
+    padding: 20px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #808080;
+}
+
+.kids-btn-1{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #64C8FF;
+}
+.card-2{
+    background: linear-gradient(180deg,#FFF4DC,#FFFFFF);
+    border: 2px solid #FFF4DC;
+    width: 367px;
+    height: 477px;
+    padding: 54px 40px;
+    text-align: center;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.kids-btn-2{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #F0AA00;
+}
+.card-3{
+    background: linear-gradient(180deg,#F2E8FF,#FFFFFF);
+    border: 2px solid #F2E8FF;
+    width: 367px;
+    height: 477px;
+    padding: 54px 40px;
+    text-align: center;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.kids-btn-3{
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #8700FF;
+}
+.arrow-icon{
+    margin-top: 80px;
+    background-color: orange;
+    padding: 30px;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.fa-solid:hover{
+    cursor: pointer;
+}
+/* Small device media query */
+
+@media screen and (max-width: 576px) {
+    .navbar-icon, .navbar-btn, .logo{
+        display: none;
+    }
+    .navbar-logo{
+        margin: 0;
+        margin-left: 10px;
+    }
+    .menu-icon{
+        margin: 0;
+        margin-right: 10px;
+        display: block;
+    }
+    #HR{
+        display: block;
+        margin-top: 10px;
+    }
+    .kids-section{
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .kids-image > img{
+        width: 100%;
+    }
+    .kids-container{
+        width: 100%;
+        text-align: center;
+    }
+    .kids-title{
+        margin-top: 20px;
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    .kids-description{
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    .standard-card-section{
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px;
+    }
+    .standard-section{
+        width: 100%;
+    }
+    .card-1, .card-2, .card-3{
+        width: 100%;
+        padding: 0;
+    }
+    .arrow{
+        display: none;
+    }
 }
