@@ -335,6 +335,66 @@ ul > li > a{
     cursor: pointer;
     color: orange;
 }
+/* footer section related style */
+footer{
+    background-color: #01ACFD;
+    padding: 132px;
+}
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+}
+.kids-education{
+    width: 305px;
+    height: 200px;
+}
+.kids-content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.kids-content img{
+    background-color: #FFFFFF;
+}
+.kids-content-title{
+    font-size: 2.20rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.kids-content-description{
+    margin-top: 36px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.about-school{
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    gap: 25px;
+}
+.about-school-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.about-school-page{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.keep-in-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 30px;
+}
+.keep-in-icon{
+    display: flex;
+    gap: 20px;
+}
 /* Small device media query */
 
 @media screen and (max-width: 576px) {
@@ -414,5 +474,23 @@ ul > li > a{
    .our-btn-1,
    .our-btn-2{
     font-size: 0.56rem;
+  }
+  footer{
+    width: 90%;
+    padding: 80px 20px 30px 20px;
+  }
+  .footer-section{
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .about-school,
+  .about-school-title,
+  .kids-education,
+  .keep-in{
+    margin: 0;
+  }
+  .keep-in-icon img{
+    margin: 0;
   }
 }
